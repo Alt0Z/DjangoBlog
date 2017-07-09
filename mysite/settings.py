@@ -25,7 +25,7 @@ SECRET_KEY = 'j(^8xd=4@$lj%p(ir45_te8ued3z0n)a$2fwo_hr&25+nz8&*9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://altzx.pythonanywhere.com/']
+ALLOWED_HOSTS = ['altzx.pythonanywhere.com']
 
 
 # Application definition
