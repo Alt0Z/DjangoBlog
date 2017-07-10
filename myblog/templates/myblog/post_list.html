@@ -1,19 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+{% extends 'myblog/base.html' %}
 
-	<div id="mainheader">
-	<h1>Test header</h1>
-	</div>
-	{% for post in posts %}
-		<div>
-		<p>published: {{post.published_date}}</p>
-		<h1><a href="">{{post.title}}</a></h1>
-		<p>{{post.text|linebreaksbr}}</p>
-		</div>
-	{% endfor %}
-</body>
-</html>
+    {% block content %}
+        {% for post in posts %}
+            <div class="post">
+                <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
+                <p>{{ post.text|linebreaksbr }}</p>
+                <div class="date">
+                    <b>Published: {{ post.published_date }}</b>
+                </div>
+            </div>
+        {% endfor %}
+    {% endblock content %}

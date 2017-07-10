@@ -1,0 +1,13 @@
+body{
+	background-color: #BF4D28;
+	padding-left: 45px;
+	font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+h1, a {
+	color: #655643;
+}
+
+.main_header {
+	background-color: #ff9400;
+}
