@@ -11,11 +11,22 @@
 <body>
 
 	<div class="main_header">
-            <h1><a href="/">Roman Shakhanov</a></h1>
-        </div>
+        <h1 id="m_header"><a href="/">Roman Shakhanov</a> <span id="a_header">Personal Blog</span> </h1>
+    </div>
+    <div class="navbar">
+        <h4 id="nav_table"><center>
+            <table>
+                    <tr>
+                        <td width="35%"><a href="/">Home</a></td>
+                        <td width="35%"><a href="#">About</a></td>
+                        <td width="50%"><a href="#">Contact Me</a></td>
+                    </tr>
+            </table></center>
+        </h4>
+    </div>
         <div class="content container">
             <div class="row">
-                <div class="col-md-8">
+                <div class="">
                 {% block content %}
                 {% endblock %}
                 </div>
