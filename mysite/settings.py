@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['altzx.pythonanywhere.com']
 
+LOGIN_REDIRECT_URL = '/'
+
 
 # Application definition
 
