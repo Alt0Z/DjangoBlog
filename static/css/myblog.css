@@ -58,7 +58,7 @@ h1, h2, h3, h4 {
 }
 
 .post-detail {
-	margin-bottom: 70px;
+	//margin-bottom: 70px;
 	display: block;
 }
 
@@ -75,4 +75,36 @@ h1, h2, h3, h4 {
 	font-size: 15px;
 	margin-left: 25px;
 	opacity: 0.75;
+}
+
+.texts {
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+
+.comment {
+	margin: 20px 0px 20px 20px;
+}
+
+#mypic {
+	border-radius: 40px;
+	float: left;
+	margin-right: 25px;
+}
+
+#about {
+	font-size: 20px;
+}
+
+#c_header {
+	
+}
+
+#c_list {
+
+}
+
+footer {
+	background-color: #A7DBD8;
 }

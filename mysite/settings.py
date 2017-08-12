@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myblog',
+    'django_markdown', #markdown
 )
 
 MIDDLEWARE_CLASSES = (
@@ -84,6 +85,8 @@ DATABASES = {
     }
 }
 
+MARKDOWN_EDITOR_SKIN = 'simple'
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
@@ -97,6 +100,9 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+# Markdown
+MARKDOWN_EDITOR_SKIN = 'simple'
 
 
 # Static files (CSS, JavaScript, Images)
